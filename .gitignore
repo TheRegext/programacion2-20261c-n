@@ -1,0 +1,31 @@
+# Archivos compilados
+*.exe
+*.o
+*.obj
+*.out
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+
+# Visual Studio / IDEs
+.vs/
+.vscode/
+.idea/
+*.pdb
+*.ilk
+*.suo
+*.user
+*.sln.docstates
+
+# Directorios de compilación y salida
+build/
+bin/
+out/
+obj/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
