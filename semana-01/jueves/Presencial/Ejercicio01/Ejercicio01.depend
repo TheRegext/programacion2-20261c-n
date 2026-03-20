@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1773960860 source:c:\users\angel\utn\pr2\clase 01\ejercicio01\main.cpp
+	<iostream>
+	"funciones.h"
+
+1773960879 c:\users\angel\utn\pr2\clase 01\ejercicio01\funciones.h
+	<string>
+
+1773960003 source:c:\users\angel\utn\pr2\clase 01\ejercicio01\funciones.cpp
+	<iostream>
+	<string>
+	"funciones.h"
+
