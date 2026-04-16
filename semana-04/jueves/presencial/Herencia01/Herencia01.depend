@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1775774365 source:c:\users\utn\github\pr2-2026-1c\herencia01\main.cpp
+	<iostream>
+	"Animal.h"
+	"Mascota.h"
+
+1775774571 c:\users\utn\github\pr2-2026-1c\herencia01\animal.h
+	<string>
+
+1775774587 source:c:\users\utn\github\pr2-2026-1c\herencia01\animal.cpp
+	<iostream>
+	"Animal.h"
+
+1775774662 source:c:\users\utn\github\pr2-2026-1c\herencia01\mascota.cpp
+	<iostream>
+	"Mascota.h"
+
+1775774044 c:\users\utn\github\pr2-2026-1c\herencia01\mascota.h
+	<string>
+	"Animal.h"
+
+1775775385 source:c:\users\utn\github\pr2-2026-1c\herencia01\gato.cpp
+	<iostream>
+	"Gato.h"
+
+1775775404 c:\users\utn\github\pr2-2026-1c\herencia01\gato.h
+	"Mascota.h"
+
