@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1776379831 source:c:\users\angel\utn\pr2\semana 05\presencial\tasktracker\fecha.cpp
+	"fecha.h"
+	<ctime>
+
+1776377080 c:\users\angel\utn\pr2\semana 05\presencial\tasktracker\fecha.h
+	<string>
+
+1776379424 source:c:\users\angel\utn\pr2\semana 05\presencial\tasktracker\main.cpp
+	<iostream>
+	"Tarea.h"
+
+1776381424 c:\users\angel\utn\pr2\semana 05\presencial\tasktracker\tarea.h
+	<string>
+	"fecha.h"
+
+1776381463 source:c:\users\angel\utn\pr2\semana 05\presencial\tasktracker\tarea.cpp
+	"Tarea.h"
+	<cstring>
+	<string>
+
+1776382369 source:c:\users\angel\utn\pr2\semana 05\presencial\tasktracker\tareaarchivo.cpp
+	"TareaArchivo.h"
+	"Tarea.h"
+	<string>
+	<cstdio>
+
+1776382104 c:\users\angel\utn\pr2\semana 05\presencial\tasktracker\tareaarchivo.h
+	"Tarea.h"
+	<string>
+
+1776379831 source:c:\users\angel\utn\pr2\semana 06\presencial\tasktracker\fecha.cpp
+	"fecha.h"
+	<ctime>
+
+1776377080 c:\users\angel\utn\pr2\semana 06\presencial\tasktracker\fecha.h
+	<string>
+
+1776984477 source:c:\users\angel\utn\pr2\semana 06\presencial\tasktracker\tarea.cpp
+	"Tarea.h"
+	<cstring>
+	<string>
+
+1776983949 c:\users\angel\utn\pr2\semana 06\presencial\tasktracker\tarea.h
+	<string>
+	"fecha.h"
+
+1776981684 source:c:\users\angel\utn\pr2\semana 06\presencial\tasktracker\tareaarchivo.cpp
+	"TareaArchivo.h"
+	"Tarea.h"
+	<string>
+	<cstdio>
+
+1776980366 c:\users\angel\utn\pr2\semana 06\presencial\tasktracker\tareaarchivo.h
+	"Tarea.h"
+	<string>
+
+1776984514 source:c:\users\angel\utn\pr2\semana 06\presencial\tasktracker\main.cpp
+	<iostream>
+	"TareaGestor.h"
+
+1776983143 c:\users\angel\utn\pr2\semana 06\presencial\tasktracker\tareagestor.h
+	"TareaArchivo.h"
+
+1776984352 source:c:\users\angel\utn\pr2\semana 06\presencial\tasktracker\tareagestor.cpp
+	<iostream>
+	"Tarea.h"
+	"TareaGestor.h"
+
