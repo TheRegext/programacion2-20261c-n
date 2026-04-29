@@ -1,0 +1,126 @@
+# depslib dependency file v1.0
+1776379831 source:c:\users\angel\utn\pr2\semana 05\presencial\tasktracker\fecha.cpp
+	"fecha.h"
+	<ctime>
+
+1776980366 
+
+1776377080 c:\users\angel\utn\pr2\semana 05\presencial\tasktracker\fecha.h
+	<string>
+
+1776379424 source:c:\users\angel\utn\pr2\semana 05\presencial\tasktracker\main.cpp
+	<iostream>
+	"Tarea.h"
+
+1776381424 c:\users\angel\utn\pr2\semana 05\presencial\tasktracker\tarea.h
+	<string>
+	"fecha.h"
+
+1776381463 source:c:\users\angel\utn\pr2\semana 05\presencial\tasktracker\tarea.cpp
+	"Tarea.h"
+	<cstring>
+	<string>
+
+1776382369 source:c:\users\angel\utn\pr2\semana 05\presencial\tasktracker\tareaarchivo.cpp
+	"TareaArchivo.h"
+	"Tarea.h"
+	<string>
+	<cstdio>
+
+1776382104 c:\users\angel\utn\pr2\semana 05\presencial\tasktracker\tareaarchivo.h
+	"Tarea.h"
+	<string>
+
+1776379831 source:c:\users\angel\utn\pr2\semana 06\presencial\tasktracker\fecha.cpp
+	"fecha.h"
+	<ctime>
+
+1776377080 c:\users\angel\utn\pr2\semana 06\presencial\tasktracker\fecha.h
+	<string>
+
+1776984477 source:c:\users\angel\utn\pr2\semana 06\presencial\tasktracker\tarea.cpp
+	"Tarea.h"
+	<cstring>
+	<string>
+
+1776983949 c:\users\angel\utn\pr2\semana 06\presencial\tasktracker\tarea.h
+	<string>
+	"fecha.h"
+
+1776981684 source:c:\users\angel\utn\pr2\semana 06\presencial\tasktracker\tareaarchivo.cpp
+	"TareaArchivo.h"
+	"Tarea.h"
+	<string>
+	<cstdio>
+
+1776980366 c:\users\angel\utn\pr2\semana 06\presencial\tasktracker\tareaarchivo.h
+	"Tarea.h"
+	<string>
+
+1776984514 source:c:\users\angel\utn\pr2\semana 06\presencial\tasktracker\main.cpp
+	<iostream>
+	"TareaGestor.h"
+
+1776984352 or.h"
+
+1776983143 c:\users\angel\utn\pr2\semana 06\presencial\tasktracker\tareagestor.h
+	"TareaArchivo.h"
+
+1776983143 ivo.h"
+
+1776984352 source:c:\users\angel\utn\pr2\semana 06\presencial\tasktracker\tareagestor.cpp
+	<iostream>
+	"Tarea.h"
+	"TareaGestor.h"
+
+1776993953 source:/home/angel/Documentos/UTN/PR2/programacion2-20261c-n-main/semana-07/TaskTracker/fecha.cpp
+	"fecha.h"
+	<ctime>
+
+1776993953 /home/angel/Documentos/UTN/PR2/programacion2-20261c-n-main/semana-07/TaskTracker/fecha.h
+	<string>
+
+1776993953 source:/home/angel/Documentos/UTN/PR2/programacion2-20261c-n-main/semana-07/TaskTracker/Tarea.cpp
+	"Tarea.h"
+	<cstring>
+	<string>
+
+1776993953 /home/angel/Documentos/UTN/PR2/programacion2-20261c-n-main/semana-07/TaskTracker/Tarea.h
+	<string>
+	"fecha.h"
+
+1776993953 source:/home/angel/Documentos/UTN/PR2/programacion2-20261c-n-main/semana-07/TaskTracker/TareaArchivo.cpp
+	"TareaArchivo.h"
+	"Tarea.h"
+	<string>
+	<cstdio>
+
+1776993953 /home/angel/Documentos/UTN/PR2/programacion2-20261c-n-main/semana-07/TaskTracker/TareaArchivo.h
+	"Tarea.h"
+	<string>
+
+1776993953 source:/home/angel/Documentos/UTN/PR2/programacion2-20261c-n-main/semana-07/TaskTracker/TareaGestor.cpp
+	<iostream>
+	"Tarea.h"
+	"TareaGestor.h"
+
+1776993953 /home/angel/Documentos/UTN/PR2/programacion2-20261c-n-main/semana-07/TaskTracker/TareaGestor.h
+	"TareaArchivo.h"
+
+1777497357 source:/home/angel/Documentos/UTN/PR2/programacion2-20261c-n-main/semana-07/TaskTracker/TareaMenu.cpp
+	<iostream>
+	"TareaMenu.h"
+
+1777497352 /home/angel/Documentos/UTN/PR2/programacion2-20261c-n-main/semana-07/TaskTracker/TareaMenu.h
+	"TareaGestor.h"
+
+1777497803 source:/home/angel/Documentos/UTN/PR2/programacion2-20261c-n-main/semana-07/TaskTracker/App.cpp
+	<iostream>
+	"App.h"
+
+1777497798 /home/angel/Documentos/UTN/PR2/programacion2-20261c-n-main/semana-07/TaskTracker/App.h
+	"TareaMenu.h"
+
+1777497806 source:/home/angel/Documentos/UTN/PR2/programacion2-20261c-n-main/semana-07/TaskTracker/main.cpp
+	"App.h"
+
