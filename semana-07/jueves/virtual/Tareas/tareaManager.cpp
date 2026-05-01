@@ -40,6 +40,11 @@ void TareaManager::listarTareas(){
 }
 
 void TareaManager::mostrarTarea(const Tarea &reg){
+   
+   if(reg.getEstado() == 0){
+      return;
+   }
+   
    cout << "-----------------------"<<endl;
    cout << "ID #" << reg.getId() << endl;
    cout << "Tarea: " << reg.getTitulo() << endl;   
@@ -55,6 +60,7 @@ void TareaManager::modificarTarea(){
    int id;
    bool modifica;
    string titulo;
+
    
    cout << "Ingrese id a modificar: ";
    cin >> id;
@@ -78,6 +84,7 @@ void TareaManager::modificarTarea(){
    cin >> modifica;
    
    if(!modifica){
+      cout << "No se modifico el registro." << endl;
       return;
    }
    
@@ -94,4 +101,54 @@ void TareaManager::modificarTarea(){
    }
 }
 
+void TareaManager::ordenarTareas(Tarea vTareas[], int cantidad){
+   int iteracion = 0;
+   bool permutation = true;
+   int actual;
+   
+   while (permutation) {
+      permutation = false;
+      iteracion ++;
+      
+      for (actual=0;actual<cantidad-iteracion;actual++) {
+         /// ----->>>> 
+         if (vTareas[actual].getTitulo()>vTareas[actual+1].getTitulo()){
+            permutation = true;
+            
+            Tarea temp = vTareas[actual];
+            vTareas[actual] = vTareas[actual+1];
+            vTareas[actual+1] = temp;
+         }
+      }
+   }
+}
+
+
+void TareaManager::mostrarTareasOrdenadas(){
+   /// cargar todos
+   Tarea *vTareas;
+   int cantidad = _repoTareas.getCantidadRegistros();
+   vTareas = new Tarea[cantidad];
+   
+   if(vTareas == nullptr){
+      cout << "No se pudo obtener todos los registros (E123)" << endl;
+      return;
+   }
+   /**
+   for(int i=0; i<cantidad; i++){
+      vTareas[i] = _repoTareas.leer(i);
+   }
+   */
+   _repoTareas.leerTodos(vTareas, cantidad);
+   
+   /// ordenar por estado
+   ordenarTareas(vTareas, cantidad);
+   /// mostrar
+   
+   for(int i=0; i<cantidad; i++){
+      mostrarTarea(vTareas[i]);
+   }
+   
+   delete [] vTareas;   
+}
 

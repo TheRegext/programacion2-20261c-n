@@ -35,7 +35,8 @@ public:
 private:
    int _id;
    char _titulo[100];
-   int _estado;
+   int _estado; //  0-eliminado
+   
    
    Fecha _fechaCreacion;
    Fecha _fechaInicio;

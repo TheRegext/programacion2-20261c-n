@@ -10,6 +10,8 @@ public:
    bool actualizar(int pos, const Tarea &reg);
    
    Tarea leer(int pos);
+   int leerTodos(Tarea vTareas[], int cantidad);
+   
    int getCantidadRegistros();
    int getNuevoId();
    
