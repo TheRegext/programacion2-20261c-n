@@ -1,0 +1,81 @@
+# depslib dependency file v1.0
+1778079622 source:c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-n\semana-08\martes\alumnos\main.cpp
+	<iostream>
+	"Alumnos.h"
+	"ArchivoAlumnos.h"
+	"Materias.h"
+	"ArchivoMaterias.h"
+	"Docentes.h"
+	"ArchivoDocentes.h"
+
+1778069472 source:c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-n\semana-08\martes\alumnos\archivoalumnos.cpp
+	<iostream>
+	<cstring>
+	"ArchivoAlumnos.h"
+
+1778078594 source:c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-n\semana-08\martes\alumnos\archivomaterias.cpp
+	<iostream>
+	<cstring>
+	"ArchivoMaterias.h"
+
+1778076788 source:c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-n\semana-08\martes\alumnos\alumnos.cpp
+	<iostream>
+	<cstring>
+	"Alumnos.h"
+	"ArchivoMaterias.h"
+
+1778066739 c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-n\semana-08\martes\alumnos\alumnos.h
+	"Fecha.h"
+
+1778078594 c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-n\semana-08\martes\alumnos\archivomaterias.h
+	"Materias.h"
+
+1778067451 c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-n\semana-08\martes\alumnos\materias.h
+
+1778073149 source:c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-n\semana-08\martes\alumnos\materias.cpp
+	<iostream>
+	<cstring>
+	"Materias.h"
+	"ArchivoMaterias.h"
+	"Docentes.h"
+	"ArchivoDocentes.h"
+
+1778077672 source:c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-n\semana-08\martes\alumnos\archivodocentes.cpp
+	<iostream>
+	<cstring>
+	"ArchivoDocentes.h"
+	"Materias.h"
+	"ArchivoMaterias.h"
+
+1778079474 source:c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-n\semana-08\martes\alumnos\docentes.cpp
+	<iostream>
+	<cstring>
+	"Docentes.h"
+
+1778066858 source:c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-n\semana-08\martes\alumnos\fecha.cpp
+	<iostream>
+	<cstring>
+	"Fecha.h"
+
+1778066859 c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-n\semana-08\martes\alumnos\fecha.h
+
+1778027340 c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-n\semana-08\martes\alumnos\docentes.cpp
+	<iostream>
+	<cstring>
+
+1778027789 c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-n\semana-08\martes\alumnos\archivodocentes.cpp
+	<iostream>
+	<cstring>
+	"ArchivoDocentes.h"
+
+1778079622 c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-n\semana-08\martes\alumnos\archivodocentes.h
+	"Docentes.h"
+
+1778079472 c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-n\semana-08\martes\alumnos\docentes.h
+	"Fecha.h"
+
+1778069532 c:\users\vero\onedrive\utn\jtp\2026-1c\pr 2\programacion2-20261c-n\semana-08\martes\alumnos\archivoalumnos.h
+	<cstring>
+	"Alumnos.h"
+	"Fecha.h"
+
