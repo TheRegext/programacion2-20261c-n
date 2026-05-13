@@ -1,0 +1,101 @@
+Repaso: estructuras de datos (variables) y funciones.
+
+Vectores y matrices: almacenar un conjunto definido de valores de un mismo tipo bajo un solo nombre de variables.
+
+Estático-> tengo que darle la dimensión al momento de declararlo.
+Dinámico-> tengo que decirle la cantidad de elementos al momento de pedir memoria para crearlo.
+const int TAM=10;
+int v[10], mat[3][5]-> al momento de declarar ponemos la 
+CANTIDAD QUE NECESITAMOS. Esa cantidad debe ser establecida mediante una constante!!!!!!
+
+Al momento de usar un vector o una matriz, la primera posición es la 0
+
+v[0] primera
+v[10] última
+
+mat[0][0] primera
+mat[2][4] última
+
+El nombre de un vector es la dirección donde ese vector empieza en la memoria->puntero (variable que contiene direcciones de memoria)
+
+Asignación dinámica de memoria: nos permite crear estructuras de datos en tiempo de ejecución (cuando el programa corre).
+
+int *pInt;
+
+pInt=new int[tamaño que quiero];
+
+Si hay memoria se devuelve la dirección de inicio del vector. Si no hay devuelve NULL o nullptr
+
+if(pInt==nullptr) cout<<"NO SE PUDO CREAR EL VECTOR"
+
+delete []pInt;
+
+REGISTROS
+Legajo, nombre, apellido, fecha de nacimiento, código de carrera-> ALUMNO
+
+código, descripción, precio unitario, stock.->ARTICULO
+
+
+En el lenguaje C->struct
+
+En la programación orientada a objetos, C++, definimos estructuras de datos mediante una CLASE
+
+CLASE: molde donde se definen las propiedades y el comportamiento que tendrán los objetos de esa clase. TIPO DE DATO
+
+OBJETO: variable de una clase. Sus propiedades y su comportamiento están definidos dentro de la clase a la que pertenece.
+
+Puedo tener todos los objetos que sean necesarios (se deben declarar como cualquier otra variable).  Y también puedo tener vectores, matrices, punteros de los tipos de datos definidos mediante las clases.
+
+Las propiedades se definen en la parte privada de la clase, de manera tal que sólo puedan ser
+accesibles mediante métodos definidos en esa misma clase (ENCAPSULAMIENTO).
+
+
+Composición: usamos objetos de una clase como propiedades de otra clase.
+Herencia: usamos una clase base para generar nuevas clases (derivadas).
+Para que una clase tenga acceso directo a las propiedades de la clase base, en la base las propiedades tiene que estar definidas bajo el identificador protected
+
+
+Archivos de datos con un formato establecido desde una clase creada para eso.
+Nuestros programas pueden escribir y leer en esos archivos.
+
+FILE *p-> establece la comunicación entre el programa y el archivo externo
+
+FILE *p=fopen("ruta_nombre", "modo");  	"wb" generar un archivo nuevo
+					"ab" abrimos para agregar registros (si el archivo no 					existe lo crea
+					"rb" para solo lectura
+					"rb+" permite leer y escribir
+fwrite(dirección de la variable que tiene los datos, tamaño, cantidad, puntero FILE);
+fread(dirección de la variable donde poner los datos, tamaño, cantidad, puntero FILE);
+
+tamaño= usamos sizeof
+
+fclose(puntero FILE)
+
+fseek(puntero FILE, desplazamiento (cantidad de bytes), desde donde) 0,1, 2 
+
+SEEK_SET->0
+SEEK_CUR->1
+SEEK_END->2
+
+ftell(puntero FILE) cantidad de bytes desde el principio del archivo hasta la posición actual
+
+
+A->alta (agregar registros)
+B->baja (eliminar un registro. Puede ser de manera lógica o física)
+M->modificación (cuando quiero cambiar algún valor de un registro)
+L->listado
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
